@@ -2,7 +2,7 @@ from openai import OpenAI
 
 def main():
     client = OpenAI(
-        api_key="sk-None-OoMEjKU888ClGXIKEQDJT3BlbkFJKwHWkBayyes0UcerzZCi", # Replace YOUR_OPENAI_API_KEY
+        api_key="", # Replace YOUR_OPENAI_API_KEY
     )
     messages = []
 
