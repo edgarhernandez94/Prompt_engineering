@@ -2,7 +2,7 @@ import tkinter as tk
 from openai import OpenAI
 
 # Configura el cliente de OpenAI (asegúrate de proteger tu clave de API)
-client = OpenAI(api_key="sk-None-OoMEjKU888ClGXIKEQDJT3BlbkFJKwHWkBayyes0UcerzZCi")
+client = OpenAI(api_key="")
 
 def on_send_click():
     user_input = text_box.get("1.0", tk.END).strip()  # Obtiene y limpia el texto del campo de texto
